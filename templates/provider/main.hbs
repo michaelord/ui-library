@@ -1,0 +1,29 @@
+import React from 'react';
+
+interface Context {
+
+}
+
+export const {{componentName name}}Context = React.createContext<Context>({
+});
+
+export const use{{componentName name}} = (): Context => React.useContext({{componentName name}}Context);
+
+
+interface Props {
+    /** */
+    children:React.ReactNode;
+}
+
+export const {{componentName name}}Provider = ({children}:Props) => {
+
+    const value = {};
+
+    return <{{componentName name}}Context.Provider>
+
+
+    </{{componentName name}}Context.Provider>
+
+
+
+}

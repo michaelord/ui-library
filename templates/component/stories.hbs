@@ -1,0 +1,19 @@
+// core
+import * as React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+
+// component
+import { {{componentName name}} } from './';
+
+export default {
+  title: '{{componentName name}}',
+  component: {{componentName name}},
+} as ComponentMeta<typeof {{componentName name}}>;
+
+// 
+// const Template: ComponentStory<typeof {{componentName name}}> = (args) => <{{componentName name}} {...args} />;
+
+export const Primary: ComponentStory<typeof {{componentName name}}> = () => <{{componentName name}}>Primary</{{componentName name}}>;
+
+export const Secondary: ComponentStory<typeof {{componentName name}}> = () => <{{componentName name}}>Secondary</{{componentName name}}>;
+

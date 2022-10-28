@@ -1,0 +1,25 @@
+{
+	"name": "ui-library",
+	"version": "0.0.0",
+	"description": "",
+	"type": "module",
+
+
+	"private": true,
+
+	"keywords": [],
+   "author": "",
+   "license": "ISC",
+
+   
+	"scripts": {
+		"gen" : "plop"
+	},
+	
+	"devDependencies": {},
+	"dependencies": {
+		"plop": "^3.1.1"
+	},
+	"resolutions": {},
+	"workspaces": []
+}
